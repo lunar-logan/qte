@@ -1,0 +1,27 @@
+{
+  "name": "qte",
+  "version": "0.0.0",
+  "description": "RDF Quality Testing Environment",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "keywords": [
+    "RDF",
+    "QA",
+    "triples"
+  ],
+  "author": "Anurag Gautam",
+  "license": "GPL",
+  "dependencies": {
+    "express": "^4.13.4",
+    "sequelize": "^3.21.0",
+    "body-parser": "^1.15.0",
+    "morgan": "^1.7.0",
+    "cookie-parser": "^1.4.1",
+    "crypto": "0.0.3",
+    "express-session": "^1.13.0",
+    "colors": "^1.1.2",
+    "sqlite3": "^3.1.3"
+  }
+}
